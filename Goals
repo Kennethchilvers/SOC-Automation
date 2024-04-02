@@ -1,0 +1,9 @@
+Overview:
+The goal of this project is to start from scratch and get a fully integrated SOAR solution with case management. 
+This will be accomplished by leveraging multiple open source softwares such as Wazuh, TheHive, Shuffle, and Sysmon.
+As a proof of concept the project will focus on utilizing Sysmon and Wazuh to detect Mimikatz, this detection will then be sent to Shuffle.
+Shuffle is going to work as the main SOAR platform to integrate all systems together, the detection will then be sent as an alert to TheHive for case management.
+
+Individual parts:
+As shown in the network diagram for the project Wazuh, TheHive, and Shuffle will all be hosted in the cloud. Wazuh and TheHive being hosted by cloud based vms
+from digitalocean. 
